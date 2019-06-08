@@ -5,7 +5,7 @@ env = gym.make("MountainCar-v0")
 #env.reset()
 done = False
 
-LEARNING_RATE = 0.1         #speed of learling
+LEARNING_RATE = 0.1         #speed of learning
 DISCOUNT = 0.95             #how much effect on future learning for the past learning 
 EPISODES = 25000
 
@@ -65,38 +65,3 @@ for episode in range(EPISODES):
         epsilon -= epsilon_decay_value
 
 env.close()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
