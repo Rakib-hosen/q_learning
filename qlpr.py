@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun  5 04:33:48 2019
-
-@author: ASUS TUF GAMING
-"""
-
 import numpy as np
 import gym
 
